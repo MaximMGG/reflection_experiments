@@ -30,7 +30,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.reflection.example.Ex1'
+    mainClass = 'com.reflection.example.Ex3'
 }
 
 tasks.named('test') {

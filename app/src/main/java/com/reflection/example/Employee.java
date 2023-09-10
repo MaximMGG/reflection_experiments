@@ -7,14 +7,14 @@ public class Employee {
     public String name;
     public int id;
     public String department;
-    private double salary;
+    private double salary = 1000;
 
-    public Employee(String name, int id, String department, double salary) {
-        this.name = name;
-        this.id = id;
-        this.department = department;
-        this.salary = salary;
-    }
+    // public Employee(String name, int id, String department, double salary) {
+    //     this.name = name;
+    //     this.id = id;
+    //     this.department = department;
+    //     this.salary = salary;
+    // }
 
     public Employee(int id, String name, String department) {
         this.id = id;
@@ -34,13 +34,13 @@ public class Employee {
     public static void main(String[] args) {
     }
 
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
+    // public double getSalary() {
+    //     return salary;
+    // }
+    //
+    // public void setSalary(double salary) {
+    //     this.salary = salary;
+    // }
 
     private void changeDepartment(String newDepartment) {
         this.department = newDepartment;
