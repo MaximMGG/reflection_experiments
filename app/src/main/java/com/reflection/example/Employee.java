@@ -23,7 +23,12 @@ public class Employee {
     }
 
 
+
     public Employee() {}
+
+    public void increaseSalary() {
+        salary *= 2;
+    }
 
 
     public static void main(String[] args) {
